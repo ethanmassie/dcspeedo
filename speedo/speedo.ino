@@ -49,7 +49,7 @@ int lastTriggerValue = 0;
 int triggerValue = 0;
 
 //  Pin the switch it connected to
-int trigger = 7;
+int trigger = 12;
 
 //  current cadence
 float cadence = 0;
@@ -160,4 +160,3 @@ void loop() {
     }
   }
 }
-
